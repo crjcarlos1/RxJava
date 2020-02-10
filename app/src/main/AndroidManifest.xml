@@ -12,8 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".example2.activity.Activity2"
+            android:name=".example3.activity.Activity3"
             android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".example2.activity.Activity2"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".example1.MainActivity"
             android:screenOrientation="portrait">

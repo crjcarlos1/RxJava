@@ -7,7 +7,7 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.cralos.application2.R;
-import com.cralos.application2.example2.activity.Activity2;
+import com.cralos.application2.example3.activity.Activity3;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        startActivity(new Intent(this, Activity2.class));
+        startActivity(new Intent(this, Activity3.class));
         //ejercicio15();
     }
 
